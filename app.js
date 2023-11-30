@@ -48,7 +48,7 @@ for (let k = 0; k < names.length; k++) {
   }
   if (isVowels) {
     v += vowels[j] + ' ';
-    z += k[j] + ' ';
+    z += k + ' ';
   }
 }
 
