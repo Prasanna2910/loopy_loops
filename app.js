@@ -33,25 +33,25 @@ console.log(c);
 // - print no vowels
 // - for example. In String Kalvian - a and i are vowels. Print Kalvian a i a 1 4 5.
 var names = 'Prasanna';
-var vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+var vs = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 var t = 'no vowels';
 v = '';
 z = '';
 for (let k = 0; k < names.length; k++) {
   var g = names[k];
-  var isVowels = true;
-  console.log(g);
-  for (let j = 0; j < vowels.length; j++) {
-    if (g === vowels[j]) {
-      isVowels = false;
+  var isVowels = false;
+  for (let l = 0; l < vs.length; l++) {
+    if (g === vs[l]) {
+      isVowels = true;
+      break;
     }
   }
   if (isVowels) {
-    v += vowels[j] + ' ';
+    v += names[k] +' ';
     z += k + ' ';
   }
 }
-
+console.log(v, z);
 // 2.3. Check if the string contains uppercase and lowercase characters Xx
 // - Print the number of upper case characters
 // - Print the number of lower case characters
