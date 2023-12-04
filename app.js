@@ -79,7 +79,7 @@ p = ' ';
 for (let t = 0; t < space.length; t++) {
   p += space[t] + ' ';
 }
-console.log(p);
+console.log(p.toUpperCase());
 // 3.2 Print all the characters of the navigator's name, in reverse order. i.e. Example "naivlaK"
 var o = '';
 for (i = Kalvian_2.length - 1; i >= 0; i--) {
