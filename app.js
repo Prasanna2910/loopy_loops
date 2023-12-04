@@ -5,9 +5,9 @@
 // 1.2 Print `"The driver's name is XXXX"`.
 // 1.3 Create a variable `Kalvian-2` with the navigator's name.
 // 1.4 Print `"The navigator's name is YYYY"`.
-var Kalvian_1 = 'XXXX';
+var Kalvian_1 = 'Venketesh';
 console.log("The dirver's name is ", Kalvian_1);
-var Kalvian_2 = 'YYTHY';
+var Kalvian_2 = 'Mukilan';
 console.log("The Navigator's name is ", Kalvian_2);
 // Progression 2: Control Statements - 1
 // 2.1. Depending on which name is longer, print:
