@@ -5,9 +5,9 @@
 // 1.2 Print `"The driver's name is XXXX"`.
 // 1.3 Create a variable `Kalvian-2` with the navigator's name.
 // 1.4 Print `"The navigator's name is YYYY"`.
-var Kalvian_1 = 'XXXX';
+var Kalvian_1 = 'Venketesh';
 console.log("The dirver's name is ", Kalvian_1);
-var Kalvian_2 = 'YYTHY';
+var Kalvian_2 = 'Mukilan';
 console.log("The Navigator's name is ", Kalvian_2);
 // Progression 2: Control Statements - 1
 // 2.1. Depending on which name is longer, print:
@@ -47,7 +47,7 @@ for (let k = 0; k < names.length; k++) {
     }
   }
   if (isVowels) {
-    v += names[k] +' ';
+    v += names[k] + ' ';
     z += k + ' ';
   }
 }
@@ -96,7 +96,7 @@ console.log(u);
 // - What?! You both have the same name?
 if (Kalvian_1 < Kalvian_2) {
   console.log("The driver's name goes first");
-} else if (Kalvian2 > Kalvian_1) {
+} else if (Kalvian_2 > Kalvian_1) {
   console.log('Yo, the navigator goes first definitely');
 } else {
   console.log('What?! You both have the same name?');
